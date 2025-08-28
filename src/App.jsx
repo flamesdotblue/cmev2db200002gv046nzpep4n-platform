@@ -6,10 +6,6 @@ import Pricing from "./components/Pricing";
 function App() {
   return (
     <div className="min-h-screen bg-[#0b0b10] text-white antialiased selection:bg-fuchsia-500/30 selection:text-fuchsia-200">
-      <div className="pointer-events-none fixed inset-0 -z-10">
-        <div className="absolute -inset-[40%] animate-pulse-slow rounded-full bg-[radial-gradient(circle_at_50%_20%,rgba(168,85,247,0.18),transparent_50%),radial-gradient(circle_at_80%_60%,rgba(14,165,233,0.15),transparent_40%)]" />
-      </div>
-
       <Header />
       <main>
         <Hero />
