@@ -1,13 +1,12 @@
 import { Play, Sparkles } from "lucide-react";
+import SplineBackground from "./SplineBackground";
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="pointer-events-none absolute inset-0 -z-10 opacity-60">
-        <div className="absolute left-1/2 top-0 h-[50rem] w-[50rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(236,72,153,0.08),transparent_60%)]" />
-      </div>
+      <SplineBackground url="https://prod.spline.design/qcm8gI4QeUo3an1N/scene.splinecode" />
 
-      <div className="mx-auto max-w-6xl px-6 pt-20 pb-16 md:pt-28">
+      <div className="mx-auto max-w-6xl px-6 pt-20 pb-16 md:pt-28 relative">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mx-auto mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/70 backdrop-blur">
             <Sparkles className="h-4 w-4 text-fuchsia-400" />
