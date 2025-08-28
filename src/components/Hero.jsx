@@ -4,7 +4,7 @@ import SplineBackground from "./SplineBackground";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <SplineBackground url="https://prod.spline.design/qcm8gI4QeUo3an1N/scene.splinecode" />
+      <SplineBackground url="https://prod.spline.design/mUyP14KSGymYtadq/scene.splinecode" />
 
       <div className="mx-auto max-w-6xl px-6 pt-20 pb-16 md:pt-28 relative">
         <div className="mx-auto max-w-3xl text-center">
